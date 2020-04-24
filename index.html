@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Spell Check</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Spell Check Assignment</h1>
+  <hr>
+
+  <h2>Single Word Spell Check</h2>
+  <p>Enter a word in the input box and then click the Linear Search or Binary Search button to see if the word you
+    entered is in the dictionary file.</p>
+  <p>
+    <input id="word" type="text">
+    <button id="linear-word-btn">Linear Search</button>
+    <button id="binary-word-btn">Binary Search</button>
+  </p>
+  <p id="word-result" class="results">Word Results...</p>
+  <hr>
+
+  <h2>Spell Check Alice In Wonderland - Ch. 1</h2>
+  <p>Click the Linear Search or Binary Search button to see if each word from Chapter 1 of Alice in Wonderland is in the
+    dictionary file.</p>
+  <p>
+    <button id="ch1-linear-btn">Linear Search</button>
+    <button id="ch1-binary-btn">Binary Search</button>
+  </p>
+  <p id="ch1-result" class="results">Alice Ch. 1 Results...</p>
+  <hr>
+
+  <h2>Spell Check Alice In Wonderland - Full Text</h2>
+  <p>Click the Linear Search or Binary Search button to see if each word from Alice in Wonderland is in the dictionary
+    file.</p>
+  <p>
+    <button id="full-linear-btn">Linear Search</button>
+    <button id="full-binary-btn">Binary Search</button>
+  </p>
+  <p id="full-result" class="results">Alice Full Text Results...</p>
+
+  <hr>
+  <p>View console for more output...</p>
+
+  <!-- Load JavaScript -->
+  <script src="js/file-loader.js"></script>
+  <script src="js/search-sort.js"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>
